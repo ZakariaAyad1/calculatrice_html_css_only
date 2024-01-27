@@ -24,6 +24,9 @@ body{
 }
 form{
     text-align: center;
+    background-color: rgb(110, 231, 231);
+    padding: 20px 10px ;
+    border-radius: 20px;
 
 }
 
@@ -55,12 +58,15 @@ input[type="text"]{
     background-color: rgb(0, 186, 254);
 }
 .button_equal{
-    background-color: rgb(92, 79, 63);
+    background-color: rgb(11, 255, 43);
+}
+.button_point{
+    background-color: rgb(255, 247, 253);
 }
 .button_sup{
     background-color: black;
     color: antiquewhite;
-    font-size: 16px;
+    
 }
 .delete{
     width: 340px;
@@ -69,6 +75,9 @@ input[type="text"]{
     background-color: black;
     color: antiquewhite;
     
+}
+.delete_all{
+    background-color: red;
 }
 
 
